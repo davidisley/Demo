@@ -1,4 +1,11 @@
 body{
     background-color: orange;
 }
-#con
+#container{
+    background-color: white;
+}
+header{
+    background-color: #EEEEEE;
+    color:brown;
+    border: 4px brown dashed;
+}
