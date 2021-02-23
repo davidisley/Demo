@@ -19,13 +19,12 @@ app.get('/comments', function(request, response){
         else{
             response.send(rows);
         }
-    }
+    });
 });
-
 app.post('/comments', function(request, response){
     console.log('POST request received at /comments');
 });
 
 app.listen(3000, function(){
-    console.log("Server is running on port 3000");
+    console.log('Server is running on port 3000');
 });

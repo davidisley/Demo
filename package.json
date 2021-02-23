@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is only Ray Isley",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +12,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "sqlite3": "^5.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidisley/Demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidisley/Demo/issues"
+  },
+  "homepage": "https://github.com/davidisley/Demo#readme"
 }
