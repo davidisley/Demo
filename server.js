@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
 
-//route
-app.get("/", function(request, response){
+//routes
+app.get('/', function(request, response){
     response.send("Hello, World");
 });
 
